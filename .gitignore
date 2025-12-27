@@ -1,10 +1,21 @@
-# Python virtual environment
-venv/
-.env/
-
 # Python cache
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
-# VS Code
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
 .vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
